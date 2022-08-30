@@ -13,12 +13,12 @@ My first challenge was creating the pivot table for "Theater Outcomes by Launch 
 #### Analysis of Outcomes Based on Launch Date
 For this analysis, I created a new sheet titled "Theater Outcomes Based by Launch Date." In this new sheet, I inserted a pivot table and added the following fields to the report: "Parent category" and "Years" into the Filters area, "Outcomes" into the Columns area, "Date Created Conversion" into the Rows area, and "Count of outcomes" into the Values area. Once those were set, I filtered out only "theaters" from the Parent category drop down. From there, I inserted a line chart so we can see a visualization of outcomes by launch date.
 
-![alt text for screen readers](https://github.com/sendyrellah/Module-1-Challenge/issues/1#issue-1356462897"Text to show on mouseover")
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/111472879/187561647-277f8909-efc9-4008-9b43-7faf2998908a.png)
 
 #### Analysis of Outcomes Based on Goals
 For this analysis, I created a new sheet titled "Outcomes Based on Goals" then created columns and rows per the modules instructions on the type of data we were going to collect. For the "Number of Successful," I used the exel formula =COUNTIFS(Kickstarter!$D:$D,"<1000",Kickstarter!$F:$F,"successful",Kickstarter!$R:$R,"plays") and applied that to the rest of the remaining rows so it can populate the number of successful play for all the other ranges. For the "Number of Failed," I used the excel formula =COUNTIFS(Kickstarter!$D:$D,"<1000",Kickstarter!$F:$F,"failed",Kickstarter!$R:$R,"plays") and applied that to the rest of the remaining rows so it can populate the number of successful play for all the other ranges. For the "Number Canceled," I used the excel formula =COUNTIFS(Kickstarter!$D:$D,"<1000",Kickstarter!$F:$F,"canceled",Kickstarter!$R:$R,"plays") and applied that to the rest of the remaining rows so it can populate the number of successful play for all the other ranges. To Capture the "Total Projects," I used the excel formula =B2+C2+D2 and applied that to the remaining rows as well. To calculate the "Percentage Successful," I used the excel formula =B2/E2 and applied that to the remaining rows. To calculate the "Percentage Failed," I used the excel formula =C2/E2 and applied that to the remaining rows. To calculate the "Percentage Canceled," I used the excel formula =D2/E2 and applied that to the remaining rows. I then inserted a line chart to demonstrate the data.
 
-![alt text for screen readers](https://github.com/sendyrellah/Module-1-Challenge/issues/2#issue-1356465313"Text to show on mouseover")
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/111472879/187561865-1cf25de6-a4ab-4d8c-9a39-4d43b2fb4977.png)
 
 ### Results
 
